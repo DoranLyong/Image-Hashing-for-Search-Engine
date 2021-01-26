@@ -87,7 +87,7 @@ queryPath = osp.join(DB_root, "query")
 # ================================================================= #
 #                          3. Processing                            #
 # ================================================================= #
-# %% 03. 하이퍼파라미터 설정 
+# %% 03. dHash 적용 
 img = cv2.imread("0022_c4_f0031602.jpg")
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 imageHash = dhash(gray_img, hashSize=10)
