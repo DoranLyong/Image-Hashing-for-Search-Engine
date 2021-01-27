@@ -78,7 +78,7 @@ query_imgs = [img_path for qf in query_folders for img_path in glob(osp.join(qf,
 
 
 # ================================================================= #
-#                          3. Compute dHash                           #
+#                          3. Compute dHash                         #
 # ================================================================= #
 # %% image hash code 얻기 
 
